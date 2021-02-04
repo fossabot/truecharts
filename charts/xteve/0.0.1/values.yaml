@@ -1,0 +1,21 @@
+# Default values for xteve.
+
+image:
+  repository: k8sathome/xteve
+  pullPolicy: IfNotPresent
+  tag: v2.1.2.0120
+
+strategy:
+  type: Recreate
+
+service:
+  port:
+    port: 34400
+
+env: {}
+  # TZ: UTC
+
+persistence:
+  config:
+    enabled: false
+    emptyDir: false

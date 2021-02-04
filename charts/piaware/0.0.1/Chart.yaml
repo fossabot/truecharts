@@ -1,0 +1,20 @@
+apiVersion: v2
+appVersion: v4.0
+description: Program for forwarding ADS-B data to FlightAware
+name: piaware
+version: 0.0.1
+upstream_version: 4.3.1
+keywords:
+  - piaware
+  - flight-aware
+  - flight-tracker
+home: https://github.com/truecharts/truecharts/tree/master/charts/piaware
+icon: https://pbs.twimg.com/profile_images/964269455483088897/mr2UgvfG_400x400.jpg
+sources:
+  - https://github.com/flightaware/piaware
+maintainers:
+  - name: TrueCharts
+dependencies:
+  - name: common
+    repository: file://../../../library/common/
+    version: 0.4.0

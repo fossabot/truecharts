@@ -1,0 +1,20 @@
+apiVersion: v2
+appVersion: 4.0.5
+description: AppDaemon is a loosely coupled, multi-threaded, sandboxed python execution environment for writing automation apps for various types of Home Automation Software including Home Assistant and MQTT.
+name: appdaemon
+version: 0.0.1
+upstream_version: 2.3.1
+keywords:
+  - appdaemon
+  - home-automation
+  - home-assistant
+  - mqtt
+home: https://github.com/truecharts/truecharts/tree/master/charts/appdaemon
+sources:
+- https://github.com/AppDaemon/appdaemon
+maintainers:
+  - name: TrueCharts
+dependencies:
+  - name: common
+    repository: file://../../../library/common/
+    version: 0.4.0

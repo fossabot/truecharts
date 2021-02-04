@@ -1,0 +1,22 @@
+apiVersion: v2
+appVersion: 0.18.0
+description: Searx is a privacy-respecting, hackable metasearch engine
+name: searx
+version: 0.0.1
+upstream_version: 1.1.1
+keywords:
+  - searx
+  - search engine
+  - privacy
+home: https://github.com/truecharts/truecharts/tree/master/charts/searx
+icon: https://github.com/searx/searx/blob/master/searx/static/themes/simple/img/logo_searx_a.png?raw=true
+sources:
+  - https://github.com/searx/searx
+  - https://searx.github.io/searx/
+  - https://hub.docker.com/r/searx/searx
+maintainers:
+  - name: TrueCharts
+dependencies:
+  - name: common
+    repository: file://../../../library/common/
+    version: 0.4.0

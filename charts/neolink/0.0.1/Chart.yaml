@@ -1,0 +1,18 @@
+apiVersion: v2
+appVersion: 0.3.0
+description: Neolink - RTSP bridge to Reolink IP cameras
+name: neolink
+version: 0.0.1
+upstream_version: 1.1.1
+keywords:
+  - reolink
+  - rtsp
+home: https://github.com/truecharts/truecharts/tree/master/charts/neolink
+sources:
+  - https://github.com/thirtythreeforty/neolink
+maintainers:
+  - name: TrueCharts
+dependencies:
+  - name: common
+    repository: file://../../../library/common/
+    version: 0.4.0

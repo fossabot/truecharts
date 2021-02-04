@@ -1,0 +1,23 @@
+apiVersion: v2
+appVersion: v4.11
+description: Traccar is an open source GPS tracking system.
+name: traccar
+version: 0.0.1
+upstream_version: 2.3.1
+keywords:
+  - traccar
+  - gps
+home: https://github.com/truecharts/truecharts/tree/master/charts/traccar
+sources:
+  - https://github.com/traccar/traccar
+  - https://hub.docker.com/r/traccar/traccar
+maintainers:
+  - name: TrueCharts
+dependencies:
+  - name: common
+    repository: file://../../../library/common/
+    version: 0.4.0
+  - name: mariadb
+    version: 9.2.0
+    repository: https://charts.bitnami.com/bitnami
+    condition: mariadb.enabled

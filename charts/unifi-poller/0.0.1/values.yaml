@@ -1,0 +1,42 @@
+# Default values for unifi-poller.
+
+image:
+  repository: golift/unifi-poller
+  pullPolicy: IfNotPresent
+  tag: 2.0.1
+
+strategy:
+  type: Recreate
+
+service:
+  port:
+    port: 9130
+
+# # See more environment varaibles in the unifi-poller documentation
+# https://github.com/unifi-poller/unifi-poller/wiki/Configuration
+env: {}
+  # TZ: UTC
+  # UP_UNIFI_DEFAULT_URL: "https://127.0.0.1:8443"
+  # UP_UNIFI_DEFAULT_USER: "unifipoller"
+  # UP_UNIFI_DEFAULT_PASS: "unifipoller"
+  # UP_PROMETHEUS_DISABLE: true
+  # UP_INFLUXDB_DISABLE: true
+
+# enable a prometheus-operator servicemonitor
+prometheus:
+  serviceMonitor:
+    enabled: false
+    interval: 1m
+    additionalLabels: {}
+
+# Enable influxdb
+# ... for more options see https://github.com/bitnami/charts/tree/master/bitnami/influxdb
+influxdb:
+  enabled: false
+  architecture: standalone
+  database: unifi_poller
+  authEnabled: false
+  persistence:
+    enabled: false
+    # storageClass: ""
+    # size: 8Gi
