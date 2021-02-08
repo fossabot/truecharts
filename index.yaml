@@ -37,4 +37,29 @@ entries:
     urls:
     - https://github.com/truecharts/truecharts/releases/download/common-test-1.1.0/common-test-1.1.0.tgz
     version: 1.1.0
-generated: "2021-02-07T21:34:18.729312640Z"
+  traefik:
+  - apiVersion: v2
+    appVersion: 2.4.2
+    created: "2021-02-08T09:42:11.215483458Z"
+    dependencies:
+    - name: cert-manager
+      repository: https://charts.jetstack.io
+      version: v1.1.0
+    description: A Traefik based Kubernetes ingress controller
+    digest: 51a80aab1e32c2c01a2ac17b5ef83d80fe4df01c0516a295fef70233554e6597
+    home: https://traefik.io/
+    icon: https://raw.githubusercontent.com/traefik/traefik/v2.3/docs/content/assets/img/traefik.logo.png
+    keywords:
+    - traefik
+    - ingress
+    maintainers:
+    - name: truecharts
+    name: traefik
+    sources:
+    - https://github.com/traefik/traefik
+    - https://github.com/traefik/traefik-helm-chart
+    type: application
+    urls:
+    - https://github.com/truecharts/truecharts/releases/download/traefik-0.1.1/traefik-0.1.1.tgz
+    version: 0.1.1
+generated: "2021-02-07T21:34:18.72931264Z"
