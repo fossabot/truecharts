@@ -57,6 +57,23 @@ entries:
     version: 0.1.0
   common:
   - apiVersion: v2
+    created: "2021-02-09T13:50:56.294162055Z"
+    description: Function library for TrueCharts
+    digest: 1975a3f39ca31353ea9bb93cc532705b716697348a0c02f0e5a1222b6fb3b569
+    home: https://github.com/truecharts/truecharts/tree/master/common
+    keywords:
+    - truecharts
+    - library-chart
+    - k8s-at-home
+    - common
+    maintainers:
+    - name: truecharts
+    name: common
+    type: library
+    urls:
+    - https://github.com/truecharts/truecharts/releases/download/common-0.11.2/common-0.11.2.tgz
+    version: 0.11.2
+  - apiVersion: v2
     created: "2021-02-08T15:29:17.112841715Z"
     description: Function library for TrueCharts
     digest: 456e94cc23671937f4b4b3af078f28a75b3dd8f7caf601f7333b502a2d64a09f
@@ -638,6 +655,33 @@ entries:
   traefik:
   - apiVersion: v2
     appVersion: 2.4.2
+    created: "2021-02-09T13:50:56.419472891Z"
+    dependencies:
+    - name: cert-manager
+      repository: https://charts.jetstack.io
+      version: v1.1.0
+    - name: reflector
+      repository: https://emberstack.github.io/helm-charts
+      version: 5.4.17
+    description: A Traefik based Kubernetes ingress controller
+    digest: 1daaa4d1a15834ea12c7e056c610e491be8e9405d490f3f1becc28e3ce65d549
+    home: https://traefik.io/
+    icon: https://raw.githubusercontent.com/traefik/traefik/v2.3/docs/content/assets/img/traefik.logo.png
+    keywords:
+    - traefik
+    - ingress
+    maintainers:
+    - name: truecharts
+    name: traefik
+    sources:
+    - https://github.com/traefik/traefik
+    - https://github.com/traefik/traefik-helm-chart
+    type: application
+    urls:
+    - https://github.com/truecharts/truecharts/releases/download/traefik-0.2.0/traefik-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: 2.4.2
     created: "2021-02-08T09:42:11.215483458Z"
     dependencies:
     - name: cert-manager
@@ -730,4 +774,4 @@ entries:
     urls:
     - https://github.com/truecharts/truecharts/releases/download/truecommand-0.1.0/truecommand-0.1.0.tgz
     version: 0.1.0
-generated: "2021-02-09T11:18:49.727761950Z"
+generated: "2021-02-09T11:18:49.72776195Z"
