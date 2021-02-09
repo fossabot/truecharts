@@ -129,6 +129,30 @@ entries:
   esphome:
   - apiVersion: v2
     appVersion: 1.15.3
+    created: "2021-02-09T14:40:35.39042276Z"
+    dependencies:
+    - name: common
+      repository: https://charts.truecharts.org/
+      version: 0.11.2
+    description: ESPHome is a system to control your ESP8266/ESP32 by simple yet powerful configuration files and control them remotely through Home Automation systems.
+    digest: 065c0c5018058bad7cb59167b75ad185274e5fbcbb9e93977598dcbb5ace2bb8
+    home: https://github.com/truecharts/charts/tree/dev/charts/esphome
+    icon: https://esphome.io/_images/logo.svg
+    keywords:
+    - esphome
+    maintainers:
+    - name: TrueCharts
+    name: esphome
+    sources:
+    - https://github.com/esphome/esphome
+    - https://hub.docker.com/u/esphome
+    - https://github.com/k8s-at-home/charts/tree/master/charts/esphome
+    type: application
+    urls:
+    - https://github.com/truecharts/truecharts/releases/download/esphome-0.1.0/esphome-0.1.0.tgz
+    version: 0.1.0
+  - apiVersion: v2
+    appVersion: 1.15.3
     created: "2021-02-09T11:18:26.757252569Z"
     dependencies:
     - name: common
@@ -250,6 +274,31 @@ entries:
   jellyfin:
   - apiVersion: v2
     appVersion: 10.6.4
+    created: "2021-02-09T14:40:35.537521671Z"
+    dependencies:
+    - name: common
+      repository: https://charts.truecharts.org/
+      version: 0.11.2
+    description: Jellyfin is a Free Software Media System
+    digest: 532ef8a706733a25fa519fa956bf132fbe1dfcb036a619ee0f3927eb56e4d435
+    home: https://github.com/truecharts/charts/tree/dev/charts/jellyfin
+    icon: https://raw.githubusercontent.com/truecharts/truecharts/dev/charts/jellyfin/icon.jpg?raw=true
+    keywords:
+    - jellyfin
+    - plex
+    - emby
+    maintainers:
+    - name: TrueCharts
+    name: jellyfin
+    sources:
+    - https://github.com/k8s-at-home/charts/blob/master/charts/jellyfin
+    - https://hub.docker.com/r/linuxserver/Jellyfin/
+    - https://github.com/jellyfin/jellyfin
+    urls:
+    - https://github.com/truecharts/truecharts/releases/download/jellyfin-0.2.0/jellyfin-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: 10.6.4
     created: "2021-02-09T11:18:26.897735047Z"
     dependencies:
     - name: common
@@ -274,6 +323,25 @@ entries:
     - https://github.com/truecharts/truecharts/releases/download/jellyfin-0.1.0/jellyfin-0.1.0.tgz
     version: 0.1.0
   kms:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2021-02-09T14:40:35.664216905Z"
+    dependencies:
+    - name: common
+      repository: https://charts.truecharts.org/
+      version: 0.11.2
+    description: Private Windows Activation Server for development and testing
+    digest: 9cd3f94b1609acf12e2d85920fdd1e101aa9db2867f490e268b69ded615c9396
+    home: https://github.com/truecharts/charts/tree/dev/charts/kms
+    icon: https://github.com/KMS/KMS/blob/phantom-develop/Logo/512.png?raw=true
+    keywords:
+    - kms
+    maintainers:
+    - name: TrueCharts
+    name: kms
+    urls:
+    - https://github.com/truecharts/truecharts/releases/download/kms-0.2.0/kms-0.2.0.tgz
+    version: 0.2.0
   - apiVersion: v2
     appVersion: latest
     created: "2021-02-09T11:18:27.033417554Z"
@@ -390,6 +458,29 @@ entries:
     - https://github.com/truecharts/truecharts/releases/download/lidarr-0.1.0/lidarr-0.1.0.tgz
     version: 0.1.0
   node-red:
+  - apiVersion: v2
+    appVersion: 1.2.5
+    created: "2021-02-09T14:40:35.813283104Z"
+    dependencies:
+    - name: common
+      repository: https://charts.truecharts.org/
+      version: 0.11.2
+    description: Node-RED is low-code programming for event-driven applications
+    digest: ce45abd43a13a536711c271a97571db13b38e2cab4aecca854f857842f42b2df
+    home: https://github.com/truecharts/charts/tree/dev/charts/node-red
+    icon: https://nodered.org/about/resources/media/node-red-icon-2.png
+    keywords:
+    - nodered
+    - node-red
+    maintainers:
+    - name: TrueCharts
+    name: node-red
+    sources:
+    - https://github.com/node-red/node-red-docker
+    - https://github.com/k8s-at-home/charts/tree/master/charts/node-red
+    urls:
+    - https://github.com/truecharts/truecharts/releases/download/node-red-0.2.0/node-red-0.2.0.tgz
+    version: 0.2.0
   - apiVersion: v2
     appVersion: 1.2.5
     created: "2021-02-09T11:18:27.168778689Z"
@@ -705,6 +796,30 @@ entries:
     - https://github.com/truecharts/truecharts/releases/download/traefik-0.1.1/traefik-0.1.1.tgz
     version: 0.1.1
   transmission:
+  - apiVersion: v2
+    appVersion: version-v0.17.153
+    created: "2021-02-09T14:40:35.942819322Z"
+    dependencies:
+    - name: common
+      repository: https://charts.truecharts.org/
+      version: 0.11.2
+    description: API Support for your favorite torrent trackers.
+    digest: d36fb3f62f10b937e64904aae8f5cb45b2a4f225c8d918dd99a0ec44d07d615e
+    home: https://github.com/truecharts/charts/tree/dev/charts/transmission
+    icon: https://github.com/Jackett/Jackett/blob/phantom-develop/Logo/512.png?raw=true
+    keywords:
+    - transmission
+    - torrent
+    - usenet
+    maintainers:
+    - name: TrueCharts
+    name: transmission
+    sources:
+    - https://github.com/transmission/transmission
+    - https://hub.docker.com/r/linuxserver/transmission
+    urls:
+    - https://github.com/truecharts/truecharts/releases/download/transmission-0.3.0/transmission-0.3.0.tgz
+    version: 0.3.0
   - apiVersion: v2
     appVersion: version-v0.17.153
     created: "2021-02-09T11:18:27.294268823Z"
