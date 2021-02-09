@@ -3,6 +3,33 @@ entries:
   bazarr:
   - apiVersion: v2
     appVersion: v0.9.0.5
+    created: "2021-02-09T19:14:10.734534952Z"
+    dependencies:
+    - name: common
+      repository: https://charts.truecharts.org/
+      version: 0.11.3
+    description: Bazarr is a companion application to Bazarr and Radarr. It manages and downloads subtitles based on your requirements
+    digest: de2795ba9f8fe731b74ffdeb9d78c7b7ec7f4d1fc9f6479f63c0e6643d9109b3
+    home: https://github.com/truecharts/charts/tree/dev/charts/bazarr
+    icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/bazarr.png
+    keywords:
+    - bazarr
+    - radarr
+    - bazarr
+    - subtitles
+    - usenet
+    - torrent
+    maintainers:
+    - name: TrueCharts
+    name: bazarr
+    sources:
+    - https://github.com/Bazarr/Bazarr
+    - https://hub.docker.com/r/linuxserver/bazarr
+    urls:
+    - https://github.com/truecharts/truecharts/releases/download/bazarr-0.2.2/bazarr-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
+    appVersion: v0.9.0.5
     created: "2021-02-09T16:04:41.383874899Z"
     dependencies:
     - name: common
@@ -191,6 +218,30 @@ entries:
   esphome:
   - apiVersion: v2
     appVersion: 1.15.3
+    created: "2021-02-09T19:14:10.868417717Z"
+    dependencies:
+    - name: common
+      repository: https://charts.truecharts.org/
+      version: 0.11.3
+    description: ESPHome is a system to control your ESP8266/ESP32 by simple yet powerful configuration files and control them remotely through Home Automation systems.
+    digest: dd47eae9bb94a66aa71bf90b2a4a536c29171fcaa230814d44cb89da41d963ca
+    home: https://github.com/truecharts/charts/tree/dev/charts/esphome
+    icon: https://esphome.io/_images/logo.svg
+    keywords:
+    - esphome
+    maintainers:
+    - name: TrueCharts
+    name: esphome
+    sources:
+    - https://github.com/esphome/esphome
+    - https://hub.docker.com/u/esphome
+    - https://github.com/k8s-at-home/charts/tree/master/charts/esphome
+    type: application
+    urls:
+    - https://github.com/truecharts/truecharts/releases/download/esphome-0.1.1/esphome-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.15.3
     created: "2021-02-09T14:40:35.39042276Z"
     dependencies:
     - name: common
@@ -238,6 +289,29 @@ entries:
     - https://github.com/truecharts/truecharts/releases/download/esphome-0.0.1/esphome-0.0.1.tgz
     version: 0.0.1
   heimdall:
+  - apiVersion: v2
+    appVersion: 2.2.2
+    created: "2021-02-09T19:14:11.006562113Z"
+    dependencies:
+    - name: common
+      repository: https://charts.truecharts.org/
+      version: 0.11.3
+    description: An Application dashboard and launcher
+    digest: 89d6855c9debd55a7f1e19250965be5726004027c46439fd77fe656e80602c83
+    home: https://github.com/truecharts/charts/tree/dev/charts/heimdall
+    icon: https://i.imgur.com/mM4tcO5.png
+    keywords:
+    - heimdall
+    maintainers:
+    - name: TrueCharts
+    name: heimdall
+    sources:
+    - https://github.com/k8s-at-home/charts/blob/master/charts/heimdall/Chart.yaml
+    - https://github.com/Sonarr/Sonarr
+    - https://hub.docker.com/r/linuxserver/sonarr
+    urls:
+    - https://github.com/truecharts/truecharts/releases/download/heimdall-0.2.2/heimdall-0.2.2.tgz
+    version: 0.2.2
   - apiVersion: v2
     appVersion: 2.2.2
     created: "2021-02-09T16:04:41.504480118Z"
@@ -308,6 +382,30 @@ entries:
     - https://github.com/truecharts/truecharts/releases/download/heimdall-0.1.1/heimdall-0.1.1.tgz
     version: 0.1.1
   jackett:
+  - apiVersion: v2
+    appVersion: version-v0.17.153
+    created: "2021-02-09T19:14:11.228178141Z"
+    dependencies:
+    - name: common
+      repository: https://charts.truecharts.org/
+      version: 0.11.3
+    description: API Support for your favorite torrent trackers.
+    digest: 47b02a4739e8198fe5c00fb74f1d25afbb415f0701ae84124d1c544f019b0262
+    home: https://github.com/truecharts/charts/tree/dev/charts/jackett
+    icon: https://raw.githubusercontent.com/truecharts/truecharts/master/charts/jackett/icon.png?raw=true
+    keywords:
+    - jackett
+    - torrent
+    - usenet
+    maintainers:
+    - name: TrueCharts
+    name: jackett
+    sources:
+    - https://github.com/Jackett/Jackett
+    - https://hub.docker.com/r/linuxserver/jackett
+    urls:
+    - https://github.com/truecharts/truecharts/releases/download/jackett-0.3.2/jackett-0.3.2.tgz
+    version: 0.3.2
   - apiVersion: v2
     appVersion: version-v0.17.153
     created: "2021-02-09T16:04:41.610405435Z"
@@ -383,6 +481,31 @@ entries:
   jellyfin:
   - apiVersion: v2
     appVersion: 10.6.4
+    created: "2021-02-09T19:14:11.361178442Z"
+    dependencies:
+    - name: common
+      repository: https://charts.truecharts.org/
+      version: 0.11.3
+    description: Jellyfin is a Free Software Media System
+    digest: af0ef119f487eaadc197945abbc42e6f68ee7a33ecb512f9476747640065d58e
+    home: https://github.com/truecharts/charts/tree/dev/charts/jellyfin
+    icon: https://raw.githubusercontent.com/truecharts/truecharts/dev/charts/jellyfin/icon.jpg?raw=true
+    keywords:
+    - jellyfin
+    - plex
+    - emby
+    maintainers:
+    - name: TrueCharts
+    name: jellyfin
+    sources:
+    - https://github.com/k8s-at-home/charts/blob/master/charts/jellyfin
+    - https://hub.docker.com/r/linuxserver/Jellyfin/
+    - https://github.com/jellyfin/jellyfin
+    urls:
+    - https://github.com/truecharts/truecharts/releases/download/jellyfin-0.2.1/jellyfin-0.2.1.tgz
+    version: 0.2.1
+  - apiVersion: v2
+    appVersion: 10.6.4
     created: "2021-02-09T14:40:35.537521671Z"
     dependencies:
     - name: common
@@ -434,6 +557,25 @@ entries:
   kms:
   - apiVersion: v2
     appVersion: latest
+    created: "2021-02-09T19:14:11.514080241Z"
+    dependencies:
+    - name: common
+      repository: https://charts.truecharts.org/
+      version: 0.11.3
+    description: Private Windows Activation Server for development and testing
+    digest: 6c76e194071c8a90bf5c1bfeee779eba66456dd4cc65434495472e7be7bfdd6a
+    home: https://github.com/truecharts/charts/tree/dev/charts/kms
+    icon: https://github.com/KMS/KMS/blob/phantom-develop/Logo/512.png?raw=true
+    keywords:
+    - kms
+    maintainers:
+    - name: TrueCharts
+    name: kms
+    urls:
+    - https://github.com/truecharts/truecharts/releases/download/kms-0.2.1/kms-0.2.1.tgz
+    version: 0.2.1
+  - apiVersion: v2
+    appVersion: latest
     created: "2021-02-09T14:40:35.664216905Z"
     dependencies:
     - name: common
@@ -471,6 +613,29 @@ entries:
     - https://github.com/truecharts/truecharts/releases/download/kms-0.1.0/kms-0.1.0.tgz
     version: 0.1.0
   lazylibrarian:
+  - apiVersion: v2
+    appVersion: 1.7.2
+    created: "2021-02-09T19:14:11.650452518Z"
+    dependencies:
+    - name: common
+      repository: https://charts.truecharts.org/
+      version: 0.11.3
+    description: A Helm chart for deploying LazyLibrarian
+    digest: b424fbc9c0fa6234fbd15061d3bfab585c4385672856dacfcaad2517e1ee63ca
+    home: https://github.com/truecharts/truecharts/charts/0.0.1/lazylibrarian
+    icon: https://lazylibrarian.gitlab.io/logo.svg
+    keywords:
+    - lazylibrarian
+    - ebooks
+    maintainers:
+    - name: TrueCharts
+    name: lazylibrarian
+    sources:
+    - https://gitlab.com/LazyLibrarian/LazyLibrarian.git
+    - https://lazylibrarian.gitlab.io
+    urls:
+    - https://github.com/truecharts/truecharts/releases/download/lazylibrarian-0.3.2/lazylibrarian-0.3.2.tgz
+    version: 0.3.2
   - apiVersion: v2
     appVersion: 1.7.2
     created: "2021-02-09T16:04:41.733720754Z"
@@ -541,6 +706,30 @@ entries:
     - https://github.com/truecharts/truecharts/releases/download/lazylibrarian-0.2.0/lazylibrarian-0.2.0.tgz
     version: 0.2.0
   lidarr:
+  - apiVersion: v2
+    appVersion: 0.8.0.1886
+    created: "2021-02-09T19:14:11.770635132Z"
+    dependencies:
+    - name: common
+      repository: https://charts.truecharts.org/
+      version: 0.11.3
+    description: Looks and smells like Sonarr but made for music
+    digest: 6c4fb25c77fc0a5d24d73a3d27f47823dc9ade2bd43114b6d056989877420a05
+    home: https://github.com/truecharts/charts/tree/dev/charts/lidarr
+    icon: https://avatars3.githubusercontent.com/u/28475832?s=400&v=4
+    keywords:
+    - lidarr
+    - torrent
+    - usenet
+    maintainers:
+    - name: TrueCharts
+    name: lidarr
+    sources:
+    - https://github.com/Lidarr/Lidarr
+    - https://hub.docker.com/r/linuxserver/lidarr
+    urls:
+    - https://github.com/truecharts/truecharts/releases/download/lidarr-0.2.2/lidarr-0.2.2.tgz
+    version: 0.2.2
   - apiVersion: v2
     appVersion: 0.8.0.1886
     created: "2021-02-09T16:04:41.828711169Z"
@@ -616,6 +805,29 @@ entries:
   node-red:
   - apiVersion: v2
     appVersion: 1.2.5
+    created: "2021-02-09T19:14:11.909628857Z"
+    dependencies:
+    - name: common
+      repository: https://charts.truecharts.org/
+      version: 0.11.3
+    description: Node-RED is low-code programming for event-driven applications
+    digest: 5425d3becc8d0fc6cad2685f0d9c90fff5746d9da167032ce3f28642252d7a4f
+    home: https://github.com/truecharts/charts/tree/dev/charts/node-red
+    icon: https://nodered.org/about/resources/media/node-red-icon-2.png
+    keywords:
+    - nodered
+    - node-red
+    maintainers:
+    - name: TrueCharts
+    name: node-red
+    sources:
+    - https://github.com/node-red/node-red-docker
+    - https://github.com/k8s-at-home/charts/tree/master/charts/node-red
+    urls:
+    - https://github.com/truecharts/truecharts/releases/download/node-red-0.2.1/node-red-0.2.1.tgz
+    version: 0.2.1
+  - apiVersion: v2
+    appVersion: 1.2.5
     created: "2021-02-09T14:40:35.813283104Z"
     dependencies:
     - name: common
@@ -661,6 +873,33 @@ entries:
     - https://github.com/truecharts/truecharts/releases/download/node-red-0.1.0/node-red-0.1.0.tgz
     version: 0.1.0
   ombi:
+  - apiVersion: v2
+    appVersion: 4.0.681
+    created: "2021-02-09T19:14:12.126495425Z"
+    dependencies:
+    - name: common
+      repository: https://charts.truecharts.org/
+      version: 0.11.3
+    description: Want a Movie or TV Show on Plex or Emby? Use Ombi!
+    digest: 4f6f67fd1042462ba0c1669a97e1c7aec25ae61627aea5be0e4b33196de5f3a0
+    home: https://github.com/truecharts/charts/tree/dev/charts/ombi
+    icon: https://img3.androidappsapk.co/wiLDnuwrCWctiiW62ALcj4eIpNbzeRH_UNPo7eqlpYvGkCQYSTybaI4xVRLKGjnlamlV=s300
+    keywords:
+    - ombi
+    - plex
+    - emby
+    - sonarr
+    - radarr
+    - couchpotato
+    maintainers:
+    - name: TrueCharts
+    name: ombi
+    sources:
+    - https://github.com/tidusjar/Ombi
+    - https://hub.docker.com/r/linuxserver/ombi
+    urls:
+    - https://github.com/truecharts/truecharts/releases/download/ombi-0.2.2/ombi-0.2.2.tgz
+    version: 0.2.2
   - apiVersion: v2
     appVersion: 4.0.681
     created: "2021-02-09T16:04:41.949166889Z"
@@ -745,6 +984,29 @@ entries:
   organizr:
   - apiVersion: v2
     appVersion: latest
+    created: "2021-02-09T19:14:12.259529241Z"
+    dependencies:
+    - name: common
+      repository: https://charts.truecharts.org/
+      version: 0.11.3
+    description: HTPC/Homelab Services Organizer
+    digest: f2e7c0c0817f6b79b1280a00294513a3fbf0ab5e749a3f91a8321d4c7214acd0
+    home: https://github.com/truecharts/charts/tree/dev/charts/organizr
+    icon: https://github.com/causefx/Organizr/blob/v2-master/plugins/images/organizr/logo.png?raw=true
+    keywords:
+    - heimdall
+    maintainers:
+    - name: TrueCharts
+    name: organizr
+    sources:
+    - https://github.com/k8s-at-home/charts/blob/master/charts/organizr/
+    - https://github.com/causefx/Organizr
+    - https://hub.docker.com/r/organizr/organizr
+    urls:
+    - https://github.com/truecharts/truecharts/releases/download/organizr-0.2.2/organizr-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
+    appVersion: latest
     created: "2021-02-09T16:04:42.036421802Z"
     dependencies:
     - name: common
@@ -813,6 +1075,30 @@ entries:
     - https://github.com/truecharts/truecharts/releases/download/organizr-0.1.1/organizr-0.1.1.tgz
     version: 0.1.1
   radarr:
+  - apiVersion: v2
+    appVersion: 3.0.0.3989
+    created: "2021-02-09T19:14:12.401375123Z"
+    dependencies:
+    - name: common
+      repository: https://charts.truecharts.org/
+      version: 0.11.3
+    description: A fork of Sonarr to work with movies à la Couchpotato
+    digest: 74cefe136b8bc1b12a21cd0eefdf04b5a3540ac3dce2b5ecd787be527394bb0f
+    home: https://github.com/truecharts/charts/tree/dev/charts/radarr
+    icon: https://nzbusenet.com/wp-content/uploads/2017/10/radarr-logo.png
+    keywords:
+    - radarr
+    - torrent
+    - usenet
+    maintainers:
+    - name: TrueCharts
+    name: radarr
+    sources:
+    - https://github.com/Radarr/Radarr
+    - https://hub.docker.com/r/linuxserver/radarr
+    urls:
+    - https://github.com/truecharts/truecharts/releases/download/radarr-0.2.2/radarr-0.2.2.tgz
+    version: 0.2.2
   - apiVersion: v2
     appVersion: 3.0.0.3989
     created: "2021-02-09T16:04:42.158715121Z"
@@ -888,6 +1174,30 @@ entries:
   sonarr:
   - apiVersion: v2
     appVersion: 3.0.4.993
+    created: "2021-02-09T19:14:12.531734595Z"
+    dependencies:
+    - name: common
+      repository: https://charts.truecharts.org/
+      version: 0.11.3
+    description: Smart PVR for newsgroup and bittorrent users
+    digest: f5466c039a8467c503036ec286c88dbfe1e89a3aadf776913d47bc7b8cbb11ae
+    home: https://github.com/truecharts/charts/tree/dev/charts/sonarr
+    icon: https://github.com/Sonarr/Sonarr/blob/phantom-develop/Logo/512.png?raw=true
+    keywords:
+    - sonarr
+    - torrent
+    - usenet
+    maintainers:
+    - name: TrueCharts
+    name: sonarr
+    sources:
+    - https://github.com/Sonarr/Sonarr
+    - https://hub.docker.com/r/linuxserver/sonarr
+    urls:
+    - https://github.com/truecharts/truecharts/releases/download/sonarr-0.2.2/sonarr-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
+    appVersion: 3.0.4.993
     created: "2021-02-09T16:04:42.259642736Z"
     dependencies:
     - name: common
@@ -959,6 +1269,25 @@ entries:
     - https://github.com/truecharts/truecharts/releases/download/sonarr-0.1.0/sonarr-0.1.0.tgz
     version: 0.1.0
   tautulli:
+  - apiVersion: v2
+    appVersion: v2.5.4
+    created: "2021-02-09T19:14:12.689342897Z"
+    dependencies:
+    - name: common
+      repository: https://charts.truecharts.org/
+      version: 0.11.3
+    description: Statistics for Plex
+    digest: be5ea299ff153811580a836e873452ad14cb7da4997166c19fa3b149a325a4f0
+    home: https://github.com/truecharts/truecharts/tree/dev/charts/tautulli
+    icon: https://github.com/Tautulli/Tautulli/blob/master/data/interfaces/default/images/logo.png?raw=true
+    keywords:
+    - tautulli
+    maintainers:
+    - name: TrueCharts
+    name: tautulli
+    urls:
+    - https://github.com/truecharts/truecharts/releases/download/tautulli-0.2.2/tautulli-0.2.2.tgz
+    version: 0.2.2
   - apiVersion: v2
     appVersion: v2.5.4
     created: "2021-02-09T16:04:42.368899352Z"
@@ -1071,6 +1400,30 @@ entries:
   transmission:
   - apiVersion: v2
     appVersion: version-v0.17.153
+    created: "2021-02-09T19:14:12.859261446Z"
+    dependencies:
+    - name: common
+      repository: https://charts.truecharts.org/
+      version: 0.11.3
+    description: API Support for your favorite torrent trackers.
+    digest: bbc3e482379bc14fe2440fb4db4254110fa2f8a903202509ca367c1e405b2fbc
+    home: https://github.com/truecharts/charts/tree/dev/charts/transmission
+    icon: https://github.com/Jackett/Jackett/blob/phantom-develop/Logo/512.png?raw=true
+    keywords:
+    - transmission
+    - torrent
+    - usenet
+    maintainers:
+    - name: TrueCharts
+    name: transmission
+    sources:
+    - https://github.com/transmission/transmission
+    - https://hub.docker.com/r/linuxserver/transmission
+    urls:
+    - https://github.com/truecharts/truecharts/releases/download/transmission-0.3.1/transmission-0.3.1.tgz
+    version: 0.3.1
+  - apiVersion: v2
+    appVersion: version-v0.17.153
     created: "2021-02-09T14:40:35.942819322Z"
     dependencies:
     - name: common
@@ -1118,6 +1471,28 @@ entries:
     - https://github.com/truecharts/truecharts/releases/download/transmission-0.2.0/transmission-0.2.0.tgz
     version: 0.2.0
   truecommand:
+  - apiVersion: v2
+    appVersion: 1.3.2
+    created: "2021-02-09T19:14:13.022826586Z"
+    dependencies:
+    - name: common
+      repository: https://charts.truecharts.org/
+      version: 0.11.3
+    description: Aggregated management of TrueNAS devices
+    digest: c9b7bec97521c12c1b2f78343e137c64db1018c1bdf7bd995b5dc59b992ce6a1
+    home: https://github.com/truecharts/charts/tree/dev/charts/truecommand
+    icon: https://www.ixsystems.com/documentation/truecommand/1.2/_static/tv-logo.png
+    keywords:
+    - truecommand
+    maintainers:
+    - name: TrueCharts
+    name: truecommand
+    sources:
+    - https://github.com/Truecommand/Truecommand
+    - https://hub.docker.com/r/ixsystems/truecommand
+    urls:
+    - https://github.com/truecharts/truecharts/releases/download/truecommand-0.2.2/truecommand-0.2.2.tgz
+    version: 0.2.2
   - apiVersion: v2
     appVersion: 1.3.2
     created: "2021-02-09T16:04:42.476933368Z"
