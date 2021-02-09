@@ -136,6 +136,24 @@ entries:
     version: 0.10.1
   common-test:
   - apiVersion: v2
+    created: "2021-02-09T18:15:02.86789463Z"
+    dependencies:
+    - name: common
+      repository: file://../common
+      version: n/a
+    description: Helper chart to test different use cases of the common library
+    digest: c32f0d2e0ca1035843ebf59d1bc693aee23f8c48e050690292b14b4992b3ccc4
+    home: https://github.com/truecharts/truecharts/tree/master/charts/common-test
+    keywords:
+    - truecharts
+    - common
+    maintainers:
+    - name: truecharts
+    name: common-test
+    urls:
+    - https://github.com/truecharts/truecharts/releases/download/common-test-1.2.0/common-test-1.2.0.tgz
+    version: 1.2.0
+  - apiVersion: v2
     created: "2021-02-05T20:50:10.521769288Z"
     dependencies:
     - name: common
