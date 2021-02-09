@@ -72,7 +72,7 @@
           {{- toYaml . | nindent 10 }}
         {{- end }}
         volumeMounts:
-          {{- include "configuredAppVolumeMounts" . | indent 10 }}
+          {{- include "common.custom.configuredAppVolumeMounts" . | indent 10 }}
           #- name: data
           #  mountPath: {{ .Values.persistence.path }}
           #  {{- if .Values.persistence.subPath }}
@@ -207,7 +207,7 @@
         {{- toYaml .Values.deployment.additionalContainers | nindent 6 }}
       {{- end }}
       volumes:
-        {{- include "configuredAppVolumes" . | indent 8 }}
+        {{- include "common.custom.configuredAppVolumes" . | indent 8 }}
         #- name: data
         #  {{- if .Values.persistence.enabled }}
         #  persistentVolumeClaim:
