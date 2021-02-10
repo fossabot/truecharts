@@ -596,6 +596,31 @@ entries:
   jellyfin:
   - apiVersion: v2
     appVersion: 10.6.4
+    created: "2021-02-10T09:18:26.670867702Z"
+    dependencies:
+    - name: common
+      repository: https://charts.truecharts.org/
+      version: 0.12.0
+    description: Jellyfin is a Free Software Media System
+    digest: 0272f173cece9d466370be20f591a3c911cd3f4dae87c26aa05e66c4ae91cac7
+    home: https://github.com/truecharts/charts/tree/dev/charts/jellyfin
+    icon: https://raw.githubusercontent.com/truecharts/truecharts/master/charts/jellyfin/icon.jpg?raw=true
+    keywords:
+    - jellyfin
+    - plex
+    - emby
+    maintainers:
+    - name: TrueCharts
+    name: jellyfin
+    sources:
+    - https://github.com/k8s-at-home/charts/blob/master/charts/jellyfin
+    - https://hub.docker.com/r/linuxserver/Jellyfin/
+    - https://github.com/jellyfin/jellyfin
+    urls:
+    - https://github.com/truecharts/truecharts/releases/download/jellyfin-0.3.1/jellyfin-0.3.1.tgz
+    version: 0.3.1
+  - apiVersion: v2
+    appVersion: 10.6.4
     created: "2021-02-09T20:05:41.741835182Z"
     dependencies:
     - name: common
@@ -695,6 +720,25 @@ entries:
     - https://github.com/truecharts/truecharts/releases/download/jellyfin-0.1.0/jellyfin-0.1.0.tgz
     version: 0.1.0
   kms:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2021-02-10T09:18:26.802869376Z"
+    dependencies:
+    - name: common
+      repository: https://charts.truecharts.org/
+      version: 0.12.0
+    description: Private Windows Activation Server for development and testing
+    digest: 0a37ac91ed63eca8019ed49cae780e87deb9983b8784c0c74dbc00b6eb3d8275
+    home: https://github.com/truecharts/charts/tree/dev/charts/kms
+    icon: https://github.com/KMS/KMS/blob/phantom-develop/Logo/512.png?raw=true
+    keywords:
+    - kms
+    maintainers:
+    - name: TrueCharts
+    name: kms
+    urls:
+    - https://github.com/truecharts/truecharts/releases/download/kms-0.3.1/kms-0.3.1.tgz
+    version: 0.3.1
   - apiVersion: v2
     appVersion: latest
     created: "2021-02-09T20:05:41.900597842Z"
