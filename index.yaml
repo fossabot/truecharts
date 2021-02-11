@@ -568,6 +568,31 @@ entries:
   home-assistant:
   - apiVersion: v2
     appVersion: 2021.2.2
+    created: "2021-02-11T15:06:43.328890866Z"
+    dependencies:
+    - name: common
+      repository: https://charts.truecharts.org/
+      version: 0.12.0
+    description: Home Assistant
+    digest: 23fdde43755477d3b740bdd3c8486b98ecd74b06a117c37d610d4f6b07ae6c80
+    home: https://github.com/truecharts/charts/tree/dev/charts/home-assistant
+    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Home_Assistant_Logo.svg/519px-Home_Assistant_Logo.svg.png
+    keywords:
+    - home-assistant
+    - hass
+    - homeassistant
+    maintainers:
+    - name: TrueCharts
+    name: home-assistant
+    sources:
+    - https://github.com/home-assistant/home-assistant
+    - https://github.com/cdr/code-server
+    - https://github.com/k8s-at-home/charts/tree/master/charts/home-assistant
+    urls:
+    - https://github.com/truecharts/truecharts/releases/download/home-assistant-0.1.0/home-assistant-0.1.0.tgz
+    version: 0.1.0
+  - apiVersion: v2
+    appVersion: 2021.2.2
     created: "2021-02-11T14:37:07.372149801Z"
     dependencies:
     - name: common
@@ -2214,6 +2239,33 @@ entries:
     - https://github.com/truecharts/truecharts/releases/download/truecommand-0.1.0/truecommand-0.1.0.tgz
     version: 0.1.0
   zwavejs2mqtt:
+  - apiVersion: v2
+    appVersion: 1.1.1
+    created: "2021-02-11T15:06:43.425241153Z"
+    dependencies:
+    - name: common
+      repository: https://charts.truecharts.org/
+      version: 0.12.0
+    description: Fully configurable Zwave to MQTT gateway and Control Panel using NodeJS and Vue
+    digest: d8a042cbd5974b8c605117b662b7ec853b5e434dfd871e0fe0089a42cba6cc49
+    home: https://github.com/truecharts/charts/tree/dev/charts/zwavejsmqtt
+    icon: https://raw.githubusercontent.com/zwave-js/zwavejs2mqtt/master/static/logo.png
+    keywords:
+    - zwavejs2mqtt
+    - zwave-js
+    - z-wave
+    - zwave
+    maintainers:
+    - name: TrueCharts
+    name: zwavejs2mqtt
+    sources:
+    - https://github.com/zwave-js/zwavejs2mqtt
+    - https://hub.docker.com/r/zwavejs/zwavejs2mqtt
+    - https://github.com/k8s-at-home/charts/tree/master/charts/zwavejs2mqtt
+    type: application
+    urls:
+    - https://github.com/truecharts/truecharts/releases/download/zwavejs2mqtt-0.1.0/zwavejs2mqtt-0.1.0.tgz
+    version: 0.1.0
   - apiVersion: v2
     appVersion: 1.1.1
     created: "2021-02-11T14:37:08.605682333Z"
