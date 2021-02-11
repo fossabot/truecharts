@@ -136,6 +136,30 @@ entries:
     urls:
     - https://github.com/truecharts/truecharts/releases/download/bazarr-0.1.0/bazarr-0.1.0.tgz
     version: 0.1.0
+  calibre-web:
+  - apiVersion: v2
+    appVersion: 0.6.9
+    created: "2021-02-11T14:37:05.991066845Z"
+    dependencies:
+    - name: common
+      repository: https://charts.truecharts.org/
+      version: 0.12.0
+    description: Calibre-Web is a web app providing a clean interface for browsing, reading and downloading eBooks using an existing Calibre database.
+    digest: c9ab068f0c38beb246842470752463b25adf04e097de799d6e145860d0cb2d46
+    home: https://github.com/truecharts/truecharts/tree/master/charts/calibre-web
+    icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/calibre-web-icon.png
+    keywords:
+    - calibre
+    - ebook
+    maintainers:
+    - name: TrueCharts
+    name: calibre-web
+    sources:
+    - https://hub.docker.com/r/linuxserver/calibre-web/
+    - https://github.com/janeczku/calibre-web
+    urls:
+    - https://github.com/truecharts/truecharts/releases/download/calibre-web-0.0.1/calibre-web-0.0.1.tgz
+    version: 0.0.1
   common:
   - apiVersion: v2
     created: "2021-02-09T19:36:16.371037592Z"
@@ -356,6 +380,75 @@ entries:
     urls:
     - https://github.com/truecharts/truecharts/releases/download/esphome-0.0.1/esphome-0.0.1.tgz
     version: 0.0.1
+  freshrss:
+  - apiVersion: v2
+    appVersion: 1.17.0
+    created: "2021-02-11T14:37:06.629462386Z"
+    dependencies:
+    - name: common
+      repository: https://charts.truecharts.org/
+      version: 0.12.0
+    description: FreshRSS is a self-hosted RSS feed aggregator
+    digest: f8b57bb3066960dcbe3220ac3ddd355b0e64e72ac24522172e43628555ca607a
+    home: https://github.com/truecharts/truecharts/tree/master/charts/freshrss
+    icon: https://github.com/FreshRSS/FreshRSS/blob/master/docs/img/FreshRSS-logo.png?raw=true
+    keywords:
+    - freshrss
+    - rss
+    maintainers:
+    - name: TrueCharts
+    name: freshrss
+    sources:
+    - https://github.com/FreshRSS/FreshRSS
+    - https://hub.docker.com/r/linuxserver/freshrss
+    urls:
+    - https://github.com/truecharts/truecharts/releases/download/freshrss-0.0.1/freshrss-0.0.1.tgz
+    version: 0.0.1
+  gaps:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2021-02-11T14:37:06.874253546Z"
+    dependencies:
+    - name: common
+      repository: https://charts.truecharts.org/
+      version: 0.12.0
+    description: Gaps searches through your Plex Server or local folders for all movies, then queries for known movies in the same collection.
+    digest: 549a8d5c98796a34a29e8cdcf607f6da5f7b51448a46a86b639312a6f87493d6
+    home: https://github.com/truecharts/truecharts/tree/master/charts/gaps
+    icon: https://raw.githubusercontent.com/JasonHHouse/gaps/master/images/Final-Black.png
+    keywords:
+    - plex
+    - plex-media-server
+    maintainers:
+    - name: TrueCharts
+    name: gaps
+    sources:
+    - https://github.com/JasonHHouse/gaps
+    urls:
+    - https://github.com/truecharts/truecharts/releases/download/gaps-0.0.1/gaps-0.0.1.tgz
+    version: 0.0.1
+  grocy:
+  - apiVersion: v2
+    appVersion: v2.7.1
+    created: "2021-02-11T14:37:07.12233128Z"
+    dependencies:
+    - name: common
+      repository: https://charts.truecharts.org/
+      version: 0.12.0
+    description: ERP beyond your fridge - grocy is a web-based self-hosted groceries & household management solution for your home
+    digest: 8c8798ced39b21901ac4f17c0dbf819e6ad6e7714e9cb70c5eb5e24d0d4b30ec
+    home: https://github.com/truecharts/truecharts/tree/master/charts/grocy
+    icon: https://github.com/grocy/grocy/raw/master/public/img/appicons/mstile-150x150.png
+    keywords:
+    - grocy
+    maintainers:
+    - name: TrueCharts
+    name: grocy
+    sources:
+    - https://github.com/grocy/grocy
+    urls:
+    - https://github.com/truecharts/truecharts/releases/download/grocy-0.0.1/grocy-0.0.1.tgz
+    version: 0.0.1
   heimdall:
   - apiVersion: v2
     appVersion: 2.2.2
@@ -472,6 +565,32 @@ entries:
     urls:
     - https://github.com/truecharts/truecharts/releases/download/heimdall-0.1.1/heimdall-0.1.1.tgz
     version: 0.1.1
+  home-assistant:
+  - apiVersion: v2
+    appVersion: 2021.2.2
+    created: "2021-02-11T14:37:07.372149801Z"
+    dependencies:
+    - name: common
+      repository: https://charts.truecharts.org/
+      version: 0.10.1
+    description: Home Assistant
+    digest: ddd8906fa0ffe17670371707df0f2dfdd9a40e44abb13ef5fccbb30dc05165f2
+    home: https://github.com/truecharts/charts/tree/dev/charts/home-assistant
+    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Home_Assistant_Logo.svg/519px-Home_Assistant_Logo.svg.png
+    keywords:
+    - home-assistant
+    - hass
+    - homeassistant
+    maintainers:
+    - name: TrueCharts
+    name: home-assistant
+    sources:
+    - https://github.com/home-assistant/home-assistant
+    - https://github.com/cdr/code-server
+    - https://github.com/k8s-at-home/charts/tree/master/charts/home-assistant
+    urls:
+    - https://github.com/truecharts/truecharts/releases/download/home-assistant-0.0.1/home-assistant-0.0.1.tgz
+    version: 0.0.1
   jackett:
   - apiVersion: v2
     appVersion: version-v0.17.153
@@ -1052,6 +1171,31 @@ entries:
     urls:
     - https://github.com/truecharts/truecharts/releases/download/lidarr-0.1.0/lidarr-0.1.0.tgz
     version: 0.1.0
+  lychee:
+  - apiVersion: v2
+    appVersion: 4.0.8
+    created: "2021-02-11T14:37:07.615019178Z"
+    dependencies:
+    - name: common
+      repository: https://charts.truecharts.org/
+      version: 0.12.0
+    description: Lychee is a free photo-management tool, which runs on your server or web-space
+    digest: 71457c30b973af538c138e2688d911efbe69e7c00b052955bf76783c194ba6c7
+    home: https://github.com/truecharts/truecharts/tree/master/charts/lychee
+    icon: https://github.com/LycheeOrg/Lychee/blob/master/Banner.png?raw=true
+    keywords:
+    - lychee
+    - photo
+    - pictures
+    maintainers:
+    - name: TrueCharts
+    name: lychee
+    sources:
+    - https://github.com/LycheeOrg/Lychee
+    - https://hub.docker.com/r/lycheeorg/lychee
+    urls:
+    - https://github.com/truecharts/truecharts/releases/download/lychee-0.0.1/lychee-0.0.1.tgz
+    version: 0.0.1
   node-red:
   - apiVersion: v2
     appVersion: 1.2.5
@@ -1145,6 +1289,30 @@ entries:
     urls:
     - https://github.com/truecharts/truecharts/releases/download/node-red-0.1.0/node-red-0.1.0.tgz
     version: 0.1.0
+  nzbhydra2:
+  - apiVersion: v2
+    appVersion: v3.8.1
+    created: "2021-02-11T14:37:07.844706358Z"
+    dependencies:
+    - name: common
+      repository: https://charts.truecharts.org/
+      version: 0.12.0
+    description: Usenet meta search
+    digest: 578548404f91545ababb9d9316bf555cb580a286faf83300f4aa8b009bbd3eaf
+    home: https://github.com/truecharts/truecharts/tree/master/charts/nzbhydra2
+    icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/hydra-icon.png
+    keywords:
+    - nzbhydra2
+    - usenet
+    maintainers:
+    - name: TrueCharts
+    name: nzbhydra2
+    sources:
+    - https://hub.docker.com/r/linuxserver/nzbhydra2
+    - https://github.com/theotherp/nzbhydra2
+    urls:
+    - https://github.com/truecharts/truecharts/releases/download/nzbhydra2-0.0.1/nzbhydra2-0.0.1.tgz
+    version: 0.0.1
   ombi:
   - apiVersion: v2
     appVersion: 4.0.681
@@ -1397,6 +1565,29 @@ entries:
     urls:
     - https://github.com/truecharts/truecharts/releases/download/organizr-0.1.1/organizr-0.1.1.tgz
     version: 0.1.1
+  qbittorrent:
+  - apiVersion: v2
+    appVersion: 4.3.0
+    created: "2021-02-11T14:37:08.091788302Z"
+    dependencies:
+    - name: common
+      repository: https://charts.truecharts.org/
+      version: 0.12.0
+    description: qBittorrent is a cross-platform free and open-source BitTorrent client
+    digest: 1903cd25fd80779934490bea50cce6a89a066e20402e6328901ca74c89bc30aa
+    home: https://github.com/truecharts/truecharts/tree/master/charts/qbittorrent
+    icon: https://cloud.githubusercontent.com/assets/14862437/23586868/89ef2922-01c4-11e7-869c-52aafcece17f.png
+    keywords:
+    - qbittorrent
+    - torrrent
+    maintainers:
+    - name: TrueCharts
+    name: qbittorrent
+    sources:
+    - https://hub.docker.com/r/linuxserver/qbittorrent/
+    urls:
+    - https://github.com/truecharts/truecharts/releases/download/qbittorrent-0.0.1/qbittorrent-0.0.1.tgz
+    version: 0.0.1
   radarr:
   - apiVersion: v2
     appVersion: 3.0.0.3989
@@ -1518,6 +1709,33 @@ entries:
     urls:
     - https://github.com/truecharts/truecharts/releases/download/radarr-0.1.0/radarr-0.1.0.tgz
     version: 0.1.0
+  readarr:
+  - apiVersion: v2
+    appVersion: 0.1.0.351
+    created: "2021-02-11T14:37:08.355917711Z"
+    dependencies:
+    - name: common
+      repository: https://charts.truecharts.org/
+      version: 0.12.0
+    description: A fork of Radarr to work with Books & AudioBooks
+    digest: 1c2cec3fea8ddb101cf19eadb81a203e3225bc264d694035e430d472686cf154
+    home: https://github.com/truecharts/truecharts/tree/master/charts/readarr
+    icon: https://github.com/Readarr/Readarr/blob/develop/Logo/1024.png?raw=true
+    keywords:
+    - readarr
+    - torrent
+    - usenet
+    - AudioBooks
+    - ebooks
+    maintainers:
+    - name: TrueCharts
+    name: readarr
+    sources:
+    - https://github.com/Readarr/Readarr
+    - https://readarr.com
+    urls:
+    - https://github.com/truecharts/truecharts/releases/download/readarr-0.0.1/readarr-0.0.1.tgz
+    version: 0.0.1
   sonarr:
   - apiVersion: v2
     appVersion: 3.0.4.993
@@ -1995,4 +2213,32 @@ entries:
     urls:
     - https://github.com/truecharts/truecharts/releases/download/truecommand-0.1.0/truecommand-0.1.0.tgz
     version: 0.1.0
+  zwavejs2mqtt:
+  - apiVersion: v2
+    appVersion: 1.1.1
+    created: "2021-02-11T14:37:08.605682333Z"
+    dependencies:
+    - name: common
+      repository: https://charts.truecharts.org/
+      version: 0.10.1
+    description: Fully configurable Zwave to MQTT gateway and Control Panel using NodeJS and Vue
+    digest: ebe13e5072356d28fc091cee18af70ef75384e544e306793887742d291d9e6e2
+    home: https://github.com/truecharts/charts/tree/dev/charts/zwavejsmqtt
+    icon: https://raw.githubusercontent.com/zwave-js/zwavejs2mqtt/master/static/logo.png
+    keywords:
+    - zwavejs2mqtt
+    - zwave-js
+    - z-wave
+    - zwave
+    maintainers:
+    - name: TrueCharts
+    name: zwavejs2mqtt
+    sources:
+    - https://github.com/zwave-js/zwavejs2mqtt
+    - https://hub.docker.com/r/zwavejs/zwavejs2mqtt
+    - https://github.com/k8s-at-home/charts/tree/master/charts/zwavejs2mqtt
+    type: application
+    urls:
+    - https://github.com/truecharts/truecharts/releases/download/zwavejs2mqtt-0.0.1/zwavejs2mqtt-0.0.1.tgz
+    version: 0.0.1
 generated: "2021-02-10T09:18:51.977484709Z"
