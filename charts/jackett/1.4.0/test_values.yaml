@@ -1,9 +1,9 @@
 # Default values for Jackett.
 
 image:
-  repository: linuxserver/jackett
+  repository: ghcr.io/k8s-at-home/jackett
   pullPolicy: IfNotPresent
-  tag: version-v0.16.2106
+  tag: v0.17.496
 
 strategy:
   type: Recreate
@@ -48,6 +48,3 @@ appVolumeMounts:
     enabled: true
     emptyDir: true
     mountPath: "/config"
-
-
-
